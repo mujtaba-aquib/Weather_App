@@ -1,0 +1,34 @@
+/*
+ * File: style.css
+ * Created: Tuesday, 1st June 2021 8:33:08 pm
+ * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Last Modified: Saturday, 24th July 2021 5:44:24 pm
+ * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Copyright (c) 2021 @quib_self
+ */
+
+.container form{
+margin-top: 3rem;
+
+}
+
+.col-md-3{
+    margin: auto;
+
+}
+
+
+.form-control input{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+}
+
+form input :focus{
+    background-color: transparent;
+    box-shadow: none !important;
+}
